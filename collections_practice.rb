@@ -41,10 +41,8 @@ end
 
 def sum_array(array)
   sum = 0
-  i = 0
   array.each do |number|
     sum += number
-    i += 1
   end
   sum
 end
